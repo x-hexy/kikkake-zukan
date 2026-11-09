@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>でんきの親方｜きっかけ図鑑</title>
+  <meta name="description" content="ベテランが話すと AI が聞き返しながら知恵を短いカードにまとめ、若手の質問には出どころを色分けして答える Web アプリです。答えられなかった質問はベテランに届き、答えてもらうと次からは誰でも見られます。資格や電線の太さの判定は、プログラムが条文をもとに計算します。">
+  <meta property="og:title" content="でんきの親方｜きっかけ図鑑">
+  <meta property="og:description" content="ベテランが話すと AI が聞き返しながら知恵を短いカードにまとめ、若手の質問には出どころを色分けして答える Web アプリです。答えられなかった質問はベテランに届き、答えてもらうと次からは誰でも見られます。資格や電線の太さの判定は、プログラムが条文をもとに計算します。">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://x-hexy.github.io/kikkake-zukan/og/denki-oyakata.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%231f3f66'/%3E%3Cpath d='M10 7h9v3h-6v15h-3zM22 25h-9v-3h6V7h3z' fill='%23fff'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@700;800&family=Zen+Maru+Gothic:wght@500;700;900&display=swap">
+  <link rel="stylesheet" href="../static/site.css">
+</head>
+<body>
+  <header class="top">
+    <a class="brand" href="../index.html">きっかけ図鑑</a>
+    <nav class="top-nav" aria-label="サイト内">
+      <a href="../index.html#cards">カードを見る</a>
+      <a href="../about.html">このサイトについて</a>
+    </nav>
+  </header>
+  <main>
+<article class="sheet c-heritage">
+  <header class="sheet-head">
+    <p class="card-cat">継承</p>
+    <blockquote class="sheet-trigger">「新人が育つ前に辞めていくのを何度も見てきました。」</blockquote>
+    <p class="sheet-source">きっかけの一言（本人の記述）</p>
+  </header>
+
+  <div class="sheet-body">
+    <h1>でんきの親方</h1>
+
+    <div class="actions">
+<a class="action" href="https://denki-oyakata.web.app" rel="noopener">動くものを試す</a>      <a class="action" href="https://github.com/yousaku2222-cmd/denki-oyakata" rel="noopener">GitHub で見る</a>
+    </div>
+
+    <dl class="facts">
+      <div>
+        <dt>作った人<span class="kind">本人の記述</span></dt>
+        <dd>長崎の電気工事会社の2代目経営者</dd>
+      </div>
+      <div>
+        <dt>解こうとした課題<span class="kind">編集部まとめ</span></dt>
+        <dd>電気工事の現場では人手が足りず、ベテランの知恵が若手に渡らないまま途切れてしまいます。普通の AI に尋ねても、法令の根拠を取り違えた答えが返ることがあります。</dd>
+      </div>
+      <div>
+        <dt>作ったもの<span class="kind">編集部まとめ</span></dt>
+        <dd>ベテランが話すと AI が聞き返しながら知恵を短いカードにまとめ、若手の質問には出どころを色分けして答える Web アプリです。答えられなかった質問はベテランに届き、答えてもらうと次からは誰でも見られます。資格や電線の太さの判定は、プログラムが条文をもとに計算します。</dd>
+      </div>
+    </dl>
+
+    <section class="learn">
+      <h2>学べるところ<span class="kind">編集部まとめ</span></h2>
+      <p class="learn-lead">AI の引用を原文と一字ずつ機械で照合する</p>
+      <ul>
+        <li>答えの 1 文ずつに出どころの札を付けています。法令か、親方の知恵か、一般知識かが分かるので、若手はどこまで信じてよいかを判断できます。</li>
+        <li>AI が挙げた条文の引用はプログラムが原文と照らし、合わない文は法令として出さず「要確認」に下げます。計算や資格の判定も AI には任せていません。</li>
+        <li>親方が話していない文が混ざると本人に知らせ、確かめてもらってから公開します。きつい言い方や方言は、消さずに残せるよう調整しました。</li>
+        <li>作者自身が親方の役で本番を使い、押し間違えた所や話しづらかった所を直しました。声を出さずに文字で答える入口も、そこから生まれています。</li>
+      </ul>
+    </section>
+
+
+    <p class="sheet-note">短い期間で作られた試作です。事業として成立していることを示すものではありません。掲載は選考通過や提出を示すものでもありません。</p>
+    <p class="sheet-meta">出典：<a href="https://github.com/yousaku2222-cmd/denki-oyakata" rel="noopener">作者の README</a>。確認日：<time datetime="2026-11-09">2026-11-09</time></p>
+    <p class="back"><a href="../index.html">カードの一覧に戻る</a></p>
+  </div>
+</article>
+  </main>
+  <footer class="foot">
+    <p>Built with Claude: Japan 2026 の非公式まとめです。Anthropic と Cerebral Valley はこのサイトに関わっていません。</p>
+    <p><a href="../about.html">掲載の基準と取り下げについて</a></p>
+  </footer>
+</body>
+</html>

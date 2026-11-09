@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ケア72｜きっかけ図鑑</title>
+  <meta name="description" content="ケアマネジャーが話したり打ち込んだり、書類の写真を入れたりすると、個別避難計画の下書きができます。災害後 72 時間を模した訓練で計画を試せます。発災時には安否の整理と連絡の順を示し、薬と介護の情報を避難所の医療班へ渡します。">
+  <meta property="og:title" content="ケア72｜きっかけ図鑑">
+  <meta property="og:description" content="ケアマネジャーが話したり打ち込んだり、書類の写真を入れたりすると、個別避難計画の下書きができます。災害後 72 時間を模した訓練で計画を試せます。発災時には安否の整理と連絡の順を示し、薬と介護の情報を避難所の医療班へ渡します。">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://x-hexy.github.io/kikkake-zukan/og/care72.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%231f3f66'/%3E%3Cpath d='M10 7h9v3h-6v15h-3zM22 25h-9v-3h6V7h3z' fill='%23fff'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@700;800&family=Zen+Maru+Gothic:wght@500;700;900&display=swap">
+  <link rel="stylesheet" href="../static/site.css">
+</head>
+<body>
+  <header class="top">
+    <a class="brand" href="../index.html">きっかけ図鑑</a>
+    <nav class="top-nav" aria-label="サイト内">
+      <a href="../index.html#cards">カードを見る</a>
+      <a href="../about.html">このサイトについて</a>
+    </nav>
+  </header>
+  <main>
+<article class="sheet c-disaster">
+  <header class="sheet-head">
+    <p class="card-cat">防災</p>
+    <blockquote class="sheet-trigger">「書けるのは利用者を知るケアマネジャーですが、書く時間がありません」</blockquote>
+    <p class="sheet-source">きっかけの一言（本人の記述）</p>
+  </header>
+
+  <div class="sheet-body">
+    <h1>ケア72</h1>
+
+    <div class="actions">
+      <a class="action" href="https://github.com/Swallow100/care72" rel="noopener">GitHub で見る</a>
+    </div>
+
+    <dl class="facts">
+      <div>
+        <dt>作った人<span class="kind">本人の記述</span></dt>
+        <dd>医学部で学ぶ学生（家族がケアマネジャー）</dd>
+      </div>
+      <div>
+        <dt>解こうとした課題<span class="kind">編集部まとめ</span></dt>
+        <dd>在宅の高齢者を災害時に誰がどう助けるかを決める計画は、書ける人に時間がなく、なかなか進んでいません。避難所で薬や介護の情報が医療班に届きにくいことも、課題として挙げられています。</dd>
+      </div>
+      <div>
+        <dt>作ったもの<span class="kind">編集部まとめ</span></dt>
+        <dd>ケアマネジャーが話したり打ち込んだり、書類の写真を入れたりすると、個別避難計画の下書きができます。災害後 72 時間を模した訓練で計画を試せます。発災時には安否の整理と連絡の順を示し、薬と介護の情報を避難所の医療班へ渡します。</dd>
+      </div>
+    </dl>
+
+    <section class="learn">
+      <h2>学べるところ<span class="kind">編集部まとめ</span></h2>
+      <p class="learn-lead">安否の順番は AI に決めさせず、ルール表で出す</p>
+      <ul>
+        <li>AI の判断を入れない部分を決めています。誰の安否をどの色で示し、どの順に連絡するかは、プログラムの決まった表から導きます。入力が同じなら答えも変わらないので、正しく動くかを試験で確認できます。</li>
+        <li>仕事ごとにモデルを替えています。訓練で本人を演じる役は軽いモデルに、監督や全体の講評は上位のモデルに任せました。</li>
+        <li>偽の返事を使った試験が通っても、本物で動かすと読めない PDF が多く見つかりました。そこから、本物の Claude で測る評価の仕組みを作っています。</li>
+        <li>評価の点数が高くても、できあがった書類を作者が開くと空欄が残っていることがありました。人の目で気づいた抜けは、点数の出し方そのものに組み入れています。</li>
+      </ul>
+    </section>
+
+
+    <p class="sheet-note">短い期間で作られた試作です。事業として成立していることを示すものではありません。掲載は選考通過や提出を示すものでもありません。</p>
+    <p class="sheet-meta">出典：<a href="https://github.com/Swallow100/care72" rel="noopener">作者の README</a>。確認日：<time datetime="2026-11-09">2026-11-09</time></p>
+    <p class="back"><a href="../index.html">カードの一覧に戻る</a></p>
+  </div>
+</article>
+  </main>
+  <footer class="foot">
+    <p>Built with Claude: Japan 2026 の非公式まとめです。Anthropic と Cerebral Valley はこのサイトに関わっていません。</p>
+    <p><a href="../about.html">掲載の基準と取り下げについて</a></p>
+  </footer>
+</body>
+</html>

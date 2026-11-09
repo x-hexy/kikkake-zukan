@@ -1,0 +1,15 @@
+name: 掲載の取り下げ
+description: ご自身のプロジェクトの掲載を取り下げます
+title: "掲載の取り下げ"
+labels: ["takedown"]
+body:
+  - type: markdown
+    attributes:
+      value: この申請は公開されます。理由を書く必要はありません。プロジェクトのリポジトリを持つ GitHub アカウントから申請してください。
+  - type: input
+    id: repository
+    attributes:
+      label: 取り下げるプロジェクトの GitHub リポジトリ
+      placeholder: https://github.com/your-name/your-repo
+    validations:
+      required: true

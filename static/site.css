@@ -194,11 +194,31 @@ h1, h2, h3 { font-weight: 900; line-height: 1.35; font-feature-settings: "palt";
 
 .empty { margin: 24px 0 0; color: var(--ink-soft); }
 
+.more { width: var(--page); margin: 0 auto; padding: 0 0 72px; }
+
+.more h2 { margin: 0 0 8px; font-size: clamp(1.5rem, 3.4vw, 2rem); }
+
+.more-lead { margin: 0 0 8px; max-width: 38em; color: var(--ink-soft); }
+
+.more-group { margin-top: 30px; }
+
+.more-group h3 { display: flex; align-items: baseline; gap: 10px; margin: 0 0 4px; padding-bottom: 6px; border-bottom: 3px solid var(--cat); color: var(--cat); font-size: 1.25rem; }
+.more-group h3 span { font-size: 0.8125rem; font-weight: 700; color: var(--ink-soft); }
+
+.more-list { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 320px), 1fr)); gap: 0 32px; }
+.more-list li { padding: 12px 0; border-bottom: 1.5px dotted var(--hairline); }
+.more-list a { font-weight: 900; font-size: 1.0625rem; line-height: 1.5; }
+.more-list p { margin: 2px 0 0; font-size: 0.9375rem; line-height: 1.7; color: var(--ink-soft); }
+
+.more-video { margin-left: 8px; font-size: 0.75rem; font-weight: 700; color: var(--cat); white-space: nowrap; }
+
 .sheet { width: min(760px, 100% - 32px); margin: 20px auto 72px; background: var(--sheet); border: 1.5px solid var(--line); border-radius: 16px; overflow: hidden; }
 
 .sheet-head { background: var(--cat); color: #fff; padding: 26px 28px 22px; }
 
 .sheet-trigger { margin: 0 0 10px; font-family: var(--font-quote); font-weight: 800; font-size: clamp(1.75rem, 5vw, 2.75rem); line-height: 1.45; word-break: auto-phrase; }
+
+.sheet-issue { margin: 0 0 10px; font-weight: 900; font-size: clamp(1.25rem, 3.4vw, 1.625rem); line-height: 1.6; word-break: auto-phrase; }
 
 .sheet-source { margin: 0; font-size: 0.8125rem; font-weight: 700; }
 

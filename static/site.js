@@ -68,7 +68,11 @@
     applyFilter();
   }
 
-  cards.forEach(function (card) {
+  var savableCards = cards.filter(function (card) {
+    return card.querySelector(".star");
+  });
+
+  savableCards.forEach(function (card) {
     paintStar(card);
     card.querySelector(".star").addEventListener("click", function () {
       toggleSaved(card);

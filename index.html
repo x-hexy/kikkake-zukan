@@ -29,9 +29,17 @@
 <section class="guide">
   <p class="guide-kicker">Built with Claude: Japan 2026 の非公式まとめ</p>
   <h1>自分の現場から、作った人たち。</h1>
-  <p class="guide-lead">Built with Claude: Japan 2026 は、Anthropic と Cerebral Valley が開いた、日本に住む人のためのオンラインハッカソンです（2026年11月2日〜11月10日）。ここでは、大会名を明記して GitHub に公開されたプロジェクトを、作った人の立場から探して、解こうとした課題と一緒に読めるようにしました。</p>
-  <p class="guide-count">いま載っているのは <b data-stat="projects">98</b> 件、そのうちデモ動画を見られるのは <b data-stat="demos">59</b> 件です。</p>
-  <p class="guide-note">掲載は選考通過や提出を示すものではありません。<a href="https://cerebralvalley.ai/e/built-with-claude-japan2026" rel="noopener">大会の公式ページ</a></p>
+  <p class="guide-lead">Built with Claude: Japan 2026 は、Anthropic と Cerebral Valley が開いた、日本に住む人のためのオンラインハッカソンです（2026年11月2日〜11月10日）。ここでは、大会名を明記して GitHub に公開されたプロジェクトや、公式ギャラリーに載ったプロジェクトを、作った人の立場から探して、解こうとした課題と一緒に読めるようにしました。</p>
+  <p class="guide-count">いま載っているのは <b data-stat="projects">101</b> 件、そのうちデモ動画を見られるのは <b data-stat="demos">65</b> 件です。</p>
+  <p class="guide-note">提出された作品と入賞の結果は、<a href="https://cerebralvalley.ai/e/built-with-claude-japan2026/hackathon/gallery" rel="noopener">公式ギャラリー</a>で見られます。ここに載っていても、提出されたとは限りません。</p>
+  <nav class="top3" aria-labelledby="top3-title">
+    <h2 id="top3-title" class="top3-title">公式の結果で上位に入った作品</h2>
+    <ol class="top3-list">
+      <li><a class="top3-link award-top award-top-1" href="p/backfull.html"><span class="top3-rank">第1位</span>Backfull</a></li>
+      <li><a class="top3-link award-top award-top-2" href="p/yomidokoro.html"><span class="top3-rank">第2位</span>よみどころ</a></li>
+      <li><a class="top3-link award-top award-top-3" href="p/hiraku.html"><span class="top3-rank">第3位</span>HIRAKU</a></li>
+    </ol>
+  </nav>
 </section>
 
 <section class="feature" aria-labelledby="feature-label">
@@ -176,6 +184,7 @@
       <button class="star" type="button" aria-pressed="false" aria-label="外付けの目 を保存">☆</button>
       <div class="card-body">
         <h3><a class="card-link" href="p/sotozuke-no-me.html">外付けの目</a></h3>
+        <p class="award-badge">入賞：特別賞</p>
         <p class="card-who">全盲の工学博士</p>
         <p class="card-learn"><span>学べるところ</span>直す担当と測る担当を別のセッションに分ける</p>
       </div>
@@ -348,15 +357,15 @@
         <p class="card-learn"><span>学べるところ</span>白紙で聞かず、AI の仮説を選択肢で確かめる</p>
       </div>
     </article>
-    <article class="card is-gone c-home" data-slug="yukusuie" data-stance="専門職" data-non-engineer="true">
+    <article class="card c-home" data-slug="yukusuie" data-stance="専門職" data-non-engineer="true">
       <div class="card-top">
         <p class="card-cat">住まい</p>
         <p class="card-trigger">「建てたあとにしかわからない経験に、建てる前は触れられない」</p>
       </div>
+      <button class="star" type="button" aria-pressed="false" aria-label="ゆくすいえ を保存">☆</button>
       <div class="card-body">
-        <h3>ゆくすいえ</h3>
+        <h3><a class="card-link" href="p/yukusuie.html">ゆくすいえ</a></h3>
         <p class="card-who">現役の建築士</p>
-        <p class="gone-note">いまは GitHub で公開されていません</p>
         <p class="card-learn"><span>学べるところ</span>金額はコードが出し、AI の文の数字は差し戻す</p>
       </div>
     </article>
@@ -445,7 +454,7 @@
     </ul>
   </section>
   <section class="more-group c-medical">
-    <h3>医療<span>7 件</span></h3>
+    <h3>医療<span>6 件</span></h3>
     <ul class="more-list">
       <li>
         <a href="p/shiori.html">shiori</a><span class="more-video">動画あり</span>
@@ -471,8 +480,8 @@
         <a href="p/houmon-report-ai.html">在宅レポAI</a>
         <p>在宅訪問をする薬剤師は、医師やケアマネジャー向けの報告書づくりに、訪問のたびに時間を取られます。</p>
       </li>
-      <li>
-        <a href="p/outreach-clinic-map.html">専門医の出張外来マップ</a>
+      <li class="is-gone">
+        <span class="more-gone-title">専門医の出張外来マップ</span><span class="gone-note">いまは GitHub で公開されていません</span>
         <p>専門医のいる病院は限られた町に集まり、遠くから通う患者さんがいます。出張外来をどこで開くかの判断材料が必要です。</p>
       </li>
     </ul>
@@ -515,8 +524,8 @@
         <p>災害時、店や個人の炊き出しや給水は公式の一覧に載らず、SNSや近所の人づてでしか知ることができません。</p>
       </li>
       <li>
-        <a href="p/evac-layer.html">EVAC LAYER</a><span class="more-video">動画あり</span>
-        <p>災害時、街のサイネージは広告を流すか消えるだけで、その場所にいる人へ避難先を伝えられません。</p>
+        <a href="p/evac-layer.html">EVAC LAYER</a><span class="more-award">入賞：ファイナリスト</span><span class="more-video">動画あり</span>
+        <p>災害時、日本語の呼びかけは届いても「ここからどこへ逃げるか」は届きません。外国人や訪れた人も多く、全員がスマホの防災アプリを見られるわけでもありません。街のスクリーンは、災害のときも広告を流すか消えるだけです。</p>
       </li>
       <li>
         <a href="p/circle-bosai.html">サークル</a>
@@ -547,8 +556,8 @@
         <a href="p/bonsaigo.html">BONSAIGO</a><span class="more-video">動画あり</span>
         <p>盆栽の後継者が減るなか、海外の愛好家は園を見つけられず、日本の職人とは言葉の壁があります。</p>
       </li>
-      <li>
-        <a href="p/sigla.html">経典編纂システム SIGLA</a>
+      <li class="is-gone">
+        <span class="more-gone-title">経典編纂システム SIGLA</span><span class="gone-note">いまは GitHub で公開されていません</span>
         <p>僧侶が経典の一句ごとに自分の解釈を書き残すとき、関連する句や出典を探しながら整理する手間がかかります。</p>
       </li>
       <li>
@@ -571,10 +580,14 @@
         <a href="p/tsugu-ai.html">TSUGU AI</a>
         <p>家業の引き継ぎでは、先代の判断の理由が言葉にされず、後継者は何を学べばよいか分からないまま、すれ違いが起きやすくなります。</p>
       </li>
+      <li>
+        <a href="p/tsugu-craft.html">継ぐ</a><span class="more-award">入賞：特別賞</span><span class="more-video">動画あり</span>
+        <p>作れるかどうかの判断は、職人の頭の中にしかありません。デザインは「作れない」と何度も戻され、学ぶ人は先生の確認を待ち、職人がいなくなれば判断も消えます。伝統的工芸品の作り手は約6割減りました。</p>
+      </li>
     </ul>
   </section>
   <section class="more-group c-local">
-    <h3>地域<span>4 件</span></h3>
+    <h3>地域<span>5 件</span></h3>
     <ul class="more-list">
       <li>
         <a href="p/hatsunichi.html">hatsunichi</a>
@@ -595,6 +608,10 @@
       <li class="is-gone">
         <span class="more-gone-title">まちしるべ</span><span class="gone-note">いまは GitHub で公開されていません</span>
         <p>高齢の人や外国の住民など、暮らしの情報が届きにくい人は町ごとに違い、その人に合う情報が足りない町があります。</p>
+      </li>
+      <li>
+        <a href="p/tsumugi.html">TSUMUGI（紡ぎ）</a><span class="more-award">入賞：特別賞</span><span class="more-video">動画あり</span>
+        <p>旅先で「これ、なんて書いてあるの？いつからあるの？」と聞かれても、多くの人は答えられません。文字を訳せても、その意味や歴史を、根拠をたどれる形で知るのは難しいままです。</p>
       </li>
     </ul>
   </section>
@@ -637,8 +654,20 @@
     </ul>
   </section>
   <section class="more-group c-work">
-    <h3>仕事<span>20 件</span></h3>
+    <h3>仕事<span>22 件</span></h3>
     <ul class="more-list">
+      <li class="is-top is-top-1">
+        <a href="p/backfull.html">Backfull</a><span class="more-award award-top award-top-1">入賞：第1位</span><span class="more-video">動画あり</span>
+        <p>運ぶ人が足りないのに、営業用トラックが運べる量の6割は使われていません。困っているのは、小さな運送会社と荷主です。</p>
+      </li>
+      <li class="is-top is-top-2">
+        <a href="p/yomidokoro.html">よみどころ</a><span class="more-award award-top award-top-2">入賞：第2位</span><span class="more-video">動画あり</span>
+        <p>法律は一つなのに、許可の手引きも申請書の書き方も県ごとに違います。産業廃棄物の運搬は積む県と降ろす県の両方で許可が要り、一度に何県も申請するため、行政書士は初めての県の手引きを読むだけで半日かかり、書き分けにはさらに時間がかかります。</p>
+      </li>
+      <li class="is-top is-top-3">
+        <a href="p/hiraku.html">HIRAKU</a><span class="more-award award-top award-top-3">入賞：第3位</span><span class="more-video">動画あり</span>
+        <p>ものづくりは作ってみないと分からず、試作で NG が出ても原因が分からないことがあります。作る前に確かめる解析（CAE）は専門家にしか扱えず、ライセンスは何百万円、準備に数週間かかるため、製造業の99%を占める中小企業で使えているのは16%にとどまります。</p>
+      </li>
       <li>
         <a href="p/homepage-health-check.html">おみせのホームページ健康診断</a>
         <p>町の小さなお店は、ホームページが壊れても、誰に何をどう頼めばよいか分からず、業者任せになりがちです。</p>
@@ -672,15 +701,11 @@
         <p>業務のヒアリングでは、フローに載らない人に問い合わせが集中していても、その役割と判断の基準に気づきにくいものです。</p>
       </li>
       <li>
-        <a href="p/yomidokoro.html">よみどころ</a><span class="more-video">動画あり</span>
-        <p>産業廃棄物の運搬許可は、都道府県ごとに手引きも書き方も違い、手引きに載らない決まりは電話で聞くしかありません。</p>
-      </li>
-      <li>
         <a href="p/tepuri.html">テプリ（発売前の通し稽古シミュレーター）</a>
         <p>アプリを出す前は、どの出し方が効くかを試せず、広告費をかけた後でしか分かりません。</p>
       </li>
-      <li>
-        <a href="p/gmp-capa-room.html">GMP是正措置の会議室</a>
+      <li class="is-gone">
+        <span class="more-gone-title">GMP是正措置の会議室</span><span class="gone-note">いまは GitHub で公開されていません</span>
         <p>医薬品製造の査察で指摘を受けたとき、是正と再発防止の方針を、関係する部署の視点でそろえて決める必要があります。</p>
       </li>
       <li>
@@ -723,6 +748,10 @@
         <a href="p/visit-ledger.html">ナットク台帳</a><span class="more-video">動画あり</span>
         <p>チラシやLINEを見た人が本当に来店したかは、Webの数字だけでは分からず、効果の読み解きも見る人まかせになっています。</p>
       </li>
+      <li>
+        <a href="p/tsugumi.html">Tsugumi</a><span class="more-award">入賞：ファイナリスト</span><span class="more-video">動画あり</span>
+        <p>AI に研究を任せたくても、公開したくないデータを安心して渡せるのか、同じ結果をもう一度出せるのか、どうやって結論に至ったのかが分かりません。AI がしたことを人があとから追って確かめる手立てがないため、研究の現場は AI に任せきれずにいます。</p>
+      </li>
     </ul>
   </section>
   <section class="more-group c-life">
@@ -761,8 +790,8 @@
         <p>ADHD気質の人は、タスクが大きく見えて後回しにしてしまい、手が止まりやすいことがあります。</p>
       </li>
       <li>
-        <a href="p/boshi-techo.html">一緒に動く母子手帳</a><span class="more-video">動画あり</span>
-        <p>妊娠から2歳までは、役所・産院・会社の手続きがばらばらで、全体を見る人がいないまま、家族が自分で調べて進めています。</p>
+        <a href="p/boshi-techo.html">一緒に動く母子手帳</a><span class="more-award">入賞：ファイナリスト</span><span class="more-video">動画あり</span>
+        <p>妊娠から2歳までの1000日は、届けと手続きが次々に来ます。役所は手続き、産院は体、会社は休みと窓口がばらばらで、それをつなぐのは一番経験のない家族です。日本語が読めない家族なら、なおさらです。</p>
       </li>
       <li>
         <a href="p/otodoke.html">おとどけ（荷物カレンダー）</a><span class="more-video">動画あり</span>

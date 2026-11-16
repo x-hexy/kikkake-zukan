@@ -30,7 +30,7 @@
   <p class="guide-kicker">Built with Claude: Japan 2026 の非公式まとめ</p>
   <h1>自分の現場から、作った人たち。</h1>
   <p class="guide-lead">Built with Claude: Japan 2026 は、Anthropic と Cerebral Valley が開いた、日本に住む人のためのオンラインハッカソンです（2026年11月2日〜11月10日）。ここでは、大会名を明記して GitHub に公開されたプロジェクトや、公式ギャラリーに載ったプロジェクトを、作った人の立場から探して、解こうとした課題と一緒に読めるようにしました。</p>
-  <p class="guide-count">いま載っているのは <b data-stat="projects">101</b> 件、そのうちデモ動画を見られるのは <b data-stat="demos">65</b> 件です。</p>
+  <p class="guide-count">いま載っているのは <b data-stat="projects">116</b> 件、そのうちデモ動画を見られるのは <b data-stat="demos">79</b> 件です。</p>
   <p class="guide-note">提出された作品と入賞の結果は、<a href="https://cerebralvalley.ai/e/built-with-claude-japan2026/hackathon/gallery" rel="noopener">公式ギャラリー</a>で見られます。ここに載っていても、提出されたとは限りません。</p>
   <nav class="top3" aria-labelledby="top3-title">
     <h2 id="top3-title" class="top3-title">公式の結果で上位に入った作品</h2>
@@ -249,15 +249,15 @@
         <p class="card-learn"><span>学べるところ</span>映像の観察と研究を、出典つきの規則にして渡す</p>
       </div>
     </article>
-    <article class="card c-medical" data-slug="simple-karte" data-stance="医療・福祉で働く" data-non-engineer="false">
+    <article class="card is-gone c-medical" data-slug="simple-karte" data-stance="医療・福祉で働く" data-non-engineer="false">
       <div class="card-top">
         <p class="card-cat">医療</p>
         <p class="card-trigger">「点滴の速さの計算、すでに出ている点滴との重複、血中濃度を測る時刻の逆算も、医師の頭の中で行われています。」</p>
       </div>
-      <button class="star" type="button" aria-pressed="false" aria-label="Simple Karte を保存">☆</button>
       <div class="card-body">
-        <h3><a class="card-link" href="p/simple-karte.html">Simple Karte</a></h3>
+        <h3>Simple Karte</h3>
         <p class="card-who">医師</p>
+        <p class="gone-note">いまは GitHub で公開されていません</p>
         <p class="card-learn"><span>学べるところ</span>AI は入力係、計算と確認はプログラムに分ける</p>
       </div>
     </article>
@@ -456,8 +456,8 @@
   <section class="more-group c-medical">
     <h3>医療<span>6 件</span></h3>
     <ul class="more-list">
-      <li>
-        <a href="p/shiori.html">shiori</a><span class="more-video">動画あり</span>
+      <li class="is-gone">
+        <span class="more-gone-title">shiori</span><span class="gone-note">いまは GitHub で公開されていません</span>
         <p>がん治療中の患者は、診察と診察のあいだに説明を忘れ、体調の変化や疑問も伝えそびれてしまいます。</p>
       </li>
       <li>
@@ -484,14 +484,22 @@
         <span class="more-gone-title">専門医の出張外来マップ</span><span class="gone-note">いまは GitHub で公開されていません</span>
         <p>専門医のいる病院は限られた町に集まり、遠くから通う患者さんがいます。出張外来をどこで開くかの判断材料が必要です。</p>
       </li>
+      <li>
+        <a href="p/kakekomi.html">Kakekomi（トイレ外出サポート）</a><span class="more-video">動画あり</span>
+        <p>クローン病など腸の病気がある人の中には、突然強い便意に襲われ、1分1秒を争う人がいます。地図アプリが教えるのはトイレがあるかどうかだけで、改札の中か外か、何階か、ホームから何分かは分からず、初めての町では間に合いません。</p>
+      </li>
     </ul>
   </section>
   <section class="more-group c-home">
-    <h3>住まい<span>1 件</span></h3>
+    <h3>住まい<span>2 件</span></h3>
     <ul class="more-list">
       <li>
         <a href="p/hitomazu.html">ひとまず</a><span class="more-video">動画あり</span>
         <p>遠方に住む人は、実家の相続や空き家の手続きで、何をいつまでに誰に相談すればよいか分からず、実家を放置しがちです。</p>
+      </li>
+      <li>
+        <a href="p/next-cad.html">Next CAD</a><span class="more-video">動画あり</span>
+        <p>建築の設計は、思い描く仕事から、BIM に数字を整えて入れる仕事になりました。BIM を扱える人は足りず、企画から確認申請までは工程ごとに道具が分かれ、つなぐのは人の手作業です。</p>
       </li>
     </ul>
   </section>
@@ -587,7 +595,7 @@
     </ul>
   </section>
   <section class="more-group c-local">
-    <h3>地域<span>5 件</span></h3>
+    <h3>地域<span>9 件</span></h3>
     <ul class="more-list">
       <li>
         <a href="p/hatsunichi.html">hatsunichi</a>
@@ -613,6 +621,22 @@
         <a href="p/tsumugi.html">TSUMUGI（紡ぎ）</a><span class="more-award">入賞：特別賞</span><span class="more-video">動画あり</span>
         <p>旅先で「これ、なんて書いてあるの？いつからあるの？」と聞かれても、多くの人は答えられません。文字を訳せても、その意味や歴史を、根拠をたどれる形で知るのは難しいままです。</p>
       </li>
+      <li>
+        <a href="p/denwaban-ai.html">電話番AI</a><span class="more-video">動画あり</span>
+        <p>地方の問題は、バスがないことではありません。困っても「悪いから」と言って、家族にも近所の人にも頼めないことです。近所には手伝いたい人がいるのに、つながっていません。</p>
+      </li>
+      <li>
+        <a href="p/dispatcher.html">Dispatcher</a><span class="more-video">動画あり</span>
+        <p>路線バスは全国で運転士が足りず、少し欠けるだけでダイヤが回らなくなります。急な減便では、担当者がデータに基づいて減らす便を決める時間がほとんどなく、乗り換え案内に載せる時刻表データ（GTFS）の更新も間に合いません。</p>
+      </li>
+      <li>
+        <a href="p/machi-karte.html">まちカルテ</a><span class="more-video">動画あり</span>
+        <p>都市計画の基礎調査では、建物の用途や階数といった基本の情報を、いまも自治体の職員が現地を歩いて確かめています。3D 都市モデルがあっても情報が欠けた建物は残り、新宿区では5万7千棟余りのうち約5千棟が、用途も階数も不明のままです。</p>
+      </li>
+      <li>
+        <a href="p/japan-2100.html">2100年の日本</a><span class="more-video">動画あり</span>
+        <p>人口が減っていく日本で、いま何を残したいかを決めておかなければ、後から選べなくなるかもしれません。公式の市町村別の人口推計は2050年までで、その先の自分の町の姿は見えていません。</p>
+      </li>
     </ul>
   </section>
   <section class="more-group c-access">
@@ -629,7 +653,7 @@
     </ul>
   </section>
   <section class="more-group c-edu">
-    <h3>教育<span>4 件</span></h3>
+    <h3>教育<span>6 件</span></h3>
     <ul class="more-list">
       <li class="is-gone">
         <span class="more-gone-title">未来キャンバス</span><span class="gone-note">いまは GitHub で公開されていません</span>
@@ -651,10 +675,18 @@
         <a href="p/chalktalk.html">ChalkTalk</a><span class="more-video">動画あり</span>
         <p>共働きの家庭では、一人で勉強する子のそばに親がつけず、家庭教師を頼む余裕もない場合があります。</p>
       </li>
+      <li>
+        <a href="p/mitate-lab.html">見立てラボ</a><span class="more-video">動画あり</span>
+        <p>医療系の学生は、病気や検査、治療を理解するために、体を生物・化学・物理の面から理解する必要があります。けれど物理を深く学ばずに進む学生も多く、見えないものを思い描けないまま、知識を断片的に覚えてしまいます。</p>
+      </li>
+      <li>
+        <a href="p/rocketwright.html">RocketWright</a><span class="more-video">動画あり</span>
+        <p>宇宙開発が盛んになり、自分の手でロケットを作ってみたい人が増えています。けれど要求を確実に満たすロケットを作るのは難しく、空力・構造・飛行と、分野の違う専門知識が必要です。</p>
+      </li>
     </ul>
   </section>
   <section class="more-group c-work">
-    <h3>仕事<span>22 件</span></h3>
+    <h3>仕事<span>27 件</span></h3>
     <ul class="more-list">
       <li class="is-top is-top-1">
         <a href="p/backfull.html">Backfull</a><span class="more-award award-top award-top-1">入賞：第1位</span><span class="more-video">動画あり</span>
@@ -752,10 +784,30 @@
         <a href="p/tsugumi.html">Tsugumi</a><span class="more-award">入賞：ファイナリスト</span><span class="more-video">動画あり</span>
         <p>AI に研究を任せたくても、公開したくないデータを安心して渡せるのか、同じ結果をもう一度出せるのか、どうやって結論に至ったのかが分かりません。AI がしたことを人があとから追って確かめる手立てがないため、研究の現場は AI に任せきれずにいます。</p>
       </li>
+      <li>
+        <a href="p/kounin.html">kounin</a><span class="more-video">動画あり</span>
+        <p>人事の担当者が明日来なくなったら、賞与と昇給の計算は誰にもできません。その計算は一人の Excel の中にあり、手で書き換えたセルの理由も残っていません。</p>
+      </li>
+      <li>
+        <a href="p/motouke-navi.html">Motouke Navi</a><span class="more-video">動画あり</span>
+        <p>初めて元請けをする建設会社の若手は、受注したら要る許可や台帳、技術者を、法令と仕様書から一つずつ調べることになります。経験もノウハウも社内にないため、どこから読めばよいかさえ分かりません。</p>
+      </li>
+      <li>
+        <a href="p/oyatsu-biyori.html">おやつ日和</a><span class="more-video">動画あり</span>
+        <p>学童保育では毎週、子どものおやつを注文しています。何を選び何を避けるかは担当職員の経験とノウハウ頼みで、予算や人数、行事、アレルギーを確かめる作業に毎週1〜2時間かかり、気が抜けません。</p>
+      </li>
+      <li>
+        <a href="p/shisa.html">Shisa（お店の守り神）</a><span class="more-video">動画あり</span>
+        <p>個人情報の漏えいが次々と報じられるなか、レンタルサーバーで EC-CUBE のお店を営む店主は、サーバー会社からセキュリティのお知らせが届いても、読んで何のことか分かりません。制作会社に頼めば数日から数週間かかり、そのあいだも攻撃は待ってくれません。</p>
+      </li>
+      <li>
+        <a href="p/shotpilot.html">Shotpilot</a>
+        <p>インディーのゲーム開発者は、ゲームは作れてもトレーラーで詰まります。いちばん強い不満は、ゲームの見た目や機能が変わるたびに、トレーラーを全部撮り直すことでした。</p>
+      </li>
     </ul>
   </section>
   <section class="more-group c-life">
-    <h3>暮らし<span>11 件</span></h3>
+    <h3>暮らし<span>15 件</span></h3>
     <ul class="more-list">
       <li>
         <a href="p/ai-pocket-family.html">AIポケットファミリー</a><span class="more-video">動画あり</span>
@@ -800,6 +852,22 @@
       <li>
         <a href="p/souieba.html">そういえば。</a><span class="more-video">動画あり</span>
         <p>スマホは毎日使っても、AIに暮らしのことを話す習慣がない人の、小さな出来事や人の好みの記憶は、読み返されずに薄れていきます。</p>
+      </li>
+      <li>
+        <a href="p/dococa-fm.html">Dococa FM</a><span class="more-video">動画あり</span>
+        <p>好きな曲や本や映画の話は、誰かに聞いてほしいものです。誰かの好きな話も聞いてみたいし、まだ知らない好きなものに、ふと出会えたらうれしいものです。</p>
+      </li>
+      <li>
+        <a href="p/kurashi.html">Kurashi</a><span class="more-video">動画あり</span>
+        <p>日本で暮らしていると、引っ越しや仕事、届いた書類のたびに、何をすればいいかだけでなく、何を調べればいいかさえ分からないことがあります。初めて一人暮らしをする人も同じです。</p>
+      </li>
+      <li>
+        <a href="p/omoide-tsumugi.html">おもいでつむぎ</a><span class="more-video">動画あり</span>
+        <p>写真は手軽に撮れるようになりましたが、写真を囲んで語り合う場は減りました。離れて暮らす年老いた親とは年に一度会うかどうかで、電話をしても話は近況や用件で終わってしまいます。</p>
+      </li>
+      <li>
+        <a href="p/steam-coach.html">スチームコーチ</a>
+        <p>ラテアートの出来はミルクのスチームで大半が決まるのに、その正解は熟練者の耳と手の中にしかありません。失敗の原因は写真には写らず音にしか残らないため、家で一人で練習すると、原因がエア入れか撹拌か分からず、同じ失敗を繰り返します。</p>
       </li>
     </ul>
   </section>
